@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра "Что за дверью?"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Игра "Что за дверью?"</h1>
+        <div class="doors">
+            <div class="door" onclick="openDoor(1)">Дверь 1</div>
+            <div class="door" onclick="openDoor(2)">Дверь 2</div>
+            <div class="door" onclick="openDoor(3)">Дверь 3</div>
+            <div class="door" onclick="openDoor(4)">Дверь 4</div>
+            <div class="door" onclick="openDoor(5)">Дверь 5</div>
+            <div class="door" onclick="openDoor(6)">Дверь 6</div>
+            <div class="door" onclick="openDoor(7)">Дверь 7</div>
+            <div class="door" onclick="openDoor(8)">Дверь 8</div>
+        </div>
+        <div id="result"></div>
+        <div id="score">Очки: 0</div>
+        <button onclick="changePlayer()">Сменить игрока</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
